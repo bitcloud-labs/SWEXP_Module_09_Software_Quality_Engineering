@@ -1,0 +1,19 @@
+{
+  "name": "swexp-module-09-software-quality",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Forge SWEXP Module 09 — interactive Software Quality Engineering exercises (clone, implement, npm test).",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:types": "vitest run --typecheck",
+    "check": "tsc --noEmit -p tsconfig.json",
+    "grade": "node scripts/grade.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.6",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.8"
+  }
+}
